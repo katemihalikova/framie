@@ -1,0 +1,8 @@
+<ion-content (swipe)="this.skipIteration()">
+  <div class="image first" [class.active]="activeImage === 'first'"
+    [style.background-image]="this.baseUrl &&  displayedImages?.first && 'url(' + this.baseUrl + displayedImages?.first + ')'"
+  ></div>
+  <div class="image second" [class.active]="activeImage === 'second'"
+    [style.background-image]="this.baseUrl &&  displayedImages?.first && 'url(' + this.baseUrl + displayedImages?.second + ')'"
+  ></div>
+</ion-content>
