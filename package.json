@@ -3,6 +3,7 @@
   "description": "Dynamic photo frame made simple",
   "author": "Kate Miháliková <kate@katemihalikova.cz>",
   "homepage": "https://katemihalikova.cz/",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "build": "ionic-app-scripts build",
